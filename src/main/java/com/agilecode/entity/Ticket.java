@@ -1,13 +1,7 @@
 package com.agilecode.entity;
 
 import javax.persistence.*;
-//TODO 4 - remove comment
-/**
- * Model for ticket. Not necessary if the code is clean!!!!
- * private Integer id;
- * private String title;
- * private String description;
- */
+
 @Entity
 public class Ticket {
     @Id

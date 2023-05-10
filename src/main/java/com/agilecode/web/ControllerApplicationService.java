@@ -8,19 +8,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import com.agilecode.entity.Application;
-import com.agilecode.entity.Ticket;
 import com.agilecode.exception.ApplicationNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-
-//TODO 2 - fix name of the class
 @Controller
-public class ControllerNOK {
+public class ControllerApplicationService {
     private ApplicationService applicationService;
     private TicketService ticketService;
     private ReleaseService releaseService;

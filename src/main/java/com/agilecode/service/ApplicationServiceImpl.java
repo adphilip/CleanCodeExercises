@@ -14,11 +14,6 @@ import org.springframework.stereotype.Service;
 public class ApplicationServiceImpl implements ApplicationService {
     @Autowired
     private ApplicationRepository applicationRepository;
-    // TODO 7 - Remove unused code
-    // @Override
-    // public Iterable<Application> listApplications() {
-    //     return applicationRepository.findAll();
-    // }
 
     @Override
     public List<Application> listApplications() {
