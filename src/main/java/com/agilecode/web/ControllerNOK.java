@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
 
-//TODO 2 - fix name of the class
+//TODO 2 - fix name of the class ; pay attention on test class
 @Controller
 public class ControllerNOK {
     private ApplicationService applicationService;
