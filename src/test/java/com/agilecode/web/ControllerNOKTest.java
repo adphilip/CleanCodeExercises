@@ -42,7 +42,7 @@ public class ControllerNOKTest {
         String returnValue = ControllerNOK.retrieveApplications(model);
         assertEquals("applications", returnValue);
     }
-
+//TODO 9 - fix tests
     @Test
     public void retrieveApplicationsFromService() throws Exception {
         Iterable<Application> applications = applicationService.listApplications();
