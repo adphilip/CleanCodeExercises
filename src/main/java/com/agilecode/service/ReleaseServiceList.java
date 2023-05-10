@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ReleaseServiceImpl implements ReleaseService {
+public class ReleaseServiceList implements ReleaseService {
     @Autowired
     private ReleaseRepository releaseRepository;
     @Override

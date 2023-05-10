@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 //TODO 3 - find a better name
-public class ApplicationServiceImpl implements ApplicationService {
+public class ApplicationServiceList implements ApplicationService {
     @Autowired
     private ApplicationRepository applicationRepository;
 
