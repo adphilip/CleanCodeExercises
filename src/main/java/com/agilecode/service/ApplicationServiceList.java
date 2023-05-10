@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-//TODO 3 - find a better name
+
 public class ApplicationServiceList implements ApplicationService {
     @Autowired
     private ApplicationRepository applicationRepository;

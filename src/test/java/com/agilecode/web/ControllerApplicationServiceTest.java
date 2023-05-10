@@ -42,7 +42,7 @@ public class ControllerApplicationServiceTest {
         String returnValue = ControllerApplicationService.retrieveApplications(model);
         assertEquals("applications", returnValue);
     }
-    //TODO - fix tests
+
     @Test
     public void retrieveApplicationsFromService() throws Exception {
         Iterable<Application> applications = applicationService.listApplications();
